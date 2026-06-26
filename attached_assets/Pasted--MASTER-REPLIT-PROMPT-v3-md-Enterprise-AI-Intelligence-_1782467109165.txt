@@ -1,0 +1,143 @@
+
+# MASTER_REPLIT_PROMPT_v3.md
+
+## Enterprise AI Intelligence Hub
+
+You are a Principal Product Designer, Enterprise Solutions Architect, Senior UX Designer and Senior Frontend Engineer.
+
+Build an enterprise SOFTWARE PRODUCT, not a landing page or documentation site.
+
+Design inspiration:
+- Microsoft Learn
+- Snowflake
+- Databricks
+- Gartner
+- Microsoft Fabric
+
+### Goal
+Build an Enterprise AI Intelligence Hub for Fraud, Waste & Abuse across BFSI, Healthcare and Energy & Utilities.
+
+### Tech Stack
+- React 18
+- Vite
+- TypeScript
+- Tailwind CSS
+- shadcn/ui
+- Framer Motion
+- Lucide Icons
+- Recharts
+
+### Hard Constraints
+- Standard React+Vite project
+- npm only
+- No pnpm
+- No monorepo
+- No catalog: dependencies
+- No workspace:* dependencies
+- No Replit SDK
+- No Replit Auth
+- No Replit DB
+- No backend
+
+Must build with:
+npm install
+npm run dev
+npm run build
+
+Deploy directly to GitHub then Vercel.
+
+### Pages
+Home
+Executive Dashboard
+Industry Explorer
+Business Use Cases
+AI Explorer
+Enterprise Platforms
+Technology Compare
+Architecture
+AI Recommendation Engine
+AI Trends
+About
+
+### UI
+Dark premium theme.
+Glass cards.
+Sticky navbar.
+Animated counters.
+Interactive cards.
+Expandable details.
+Professional spacing.
+Minimal text.
+Executive-first experience.
+
+### Industries
+BFSI
+Healthcare
+Energy & Utilities
+
+### Use Cases
+Payment Fraud
+AML
+Identity Theft
+Loan Fraud
+Claims Fraud
+Provider Fraud
+Energy Theft
+Meter Tampering
+Revenue Leakage
+Predictive Maintenance
+
+Every use case contains:
+Overview
+Challenges
+Open Source Options
+Recommended Open Source Stack
+Enterprise Platforms
+Recommended Enterprise Stack
+Architecture
+Business Benefits
+
+### AI Explorer
+Include XGBoost, LightGBM, CatBoost, Random Forest, Isolation Forest, GraphSAGE, GAT, GCN, Neo4j, PyTorch, TensorFlow, Kafka, Flink, MLflow, Feast, GPT-5.5, Claude, Gemini, Llama, Mistral, DeepSeek, Qwen.
+
+### Enterprise Platforms
+IBM Safer Payments
+FICO Falcon
+NICE Actimize
+Oracle FCCM
+Snowflake Cortex AI
+Databricks
+Microsoft Fabric
+SAP
+SAS Viya
+Cotiviti
+Optum
+IBM Maximo
+Siemens Gridscale X
+Schneider EcoStruxure
+
+### AI Recommendation Engine
+Inputs:
+Industry, Use Case, Budget, Cloud, Real-time, Explainability
+
+Outputs:
+Recommended Open Source Stack
+Recommended Enterprise Stack
+Business Justification
+
+### Architecture
+Enterprise Systems → Kafka → Data Platform → Feature Store → AI Models → Graph Analytics → LLM Assistant → Dashboard
+
+### Search
+Global search with filters by industry, technology, platform and use case.
+
+### Validation
+Before completing verify:
+- npm install works
+- npm run build works
+- npm run dev works
+- No Replit-specific dependencies
+- Ready for GitHub
+- Ready for Vercel
+
+Generate the complete project in one pass.
